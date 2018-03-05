@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* body{
+    overflow: scroll;
+}
+.section{
+    border-bottom: 1px solid #ebebeb;  
+    height:   32px;
+    line-height: 32px;
+}
+.section::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.section .nav .nav-left a{
+    color: #555;
+    font-size: 12px;
+}
+.section .nav .nav-left .weather{
+    text-decoration: none;
+}
+.section .nav .nav-left .weather-item1{
+    margin-left: 15px;
+}
+.section .nav .nav-left .weather-item2::before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(./image/a2.png);
+    background-size: 18px 18px;
+    vertical-align: -4px;
+    margin-right: 3px;
+}
+.section .nav .nav-left .weather-item3{
+    color: lightgreen;
+}
+.section .nav .nav-left .num{
+    padding-right: 10px;
+    border-right: 1px solid #999;
+}
+.section .nav .nav-right .more{
+    display: inline-block;
+    background-color: #38f;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    height: 32px;
+    padding: 0 15px;
+}
+.section .nav .nav-right .ftBold{
+    font-weight: bold;
+} */
+/* .nav-item li{
+    margin-right:15px; 
+    font-size: 14px;
+}
+.nav-item li:first-child{
+    margin-right: 0;
+}
+.nav-item li a{ 
+    color: #3c3c3c;
+}
+.nav-left li{
+    float: left;
+}
+.nav-right li{
+    float: right;
+} */
+.main form{
+    margin-top: 10px;
+}
+.main{
+    text-align: center;
+}
+.main .content img{
+    width: 270px;
+    height: 129px;
+    margin-top: 200px;
+}
+.main .ipText{
+    width: 536px;
+    height: 40px;
+    padding: 5px;
+}
+.main .ipBtn{
+    width: 102px;
+    height: 40px;
+    background-color: #38f;
+    border: 0;
+    margin-left: -4px;
+    margin-top: -3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    font-size: 12px;
+    color: #999;
+}
+.footer a{
+    color: #999;
+}
+.footer p{
+    margin-top: 3px;
+}
+.footer p a{
+    text-decoration: none;
+}
+.footer p a:hover{
+    text-decoration: underline;
+}
+.footer p a::before{
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    background-image: url(./image/icon.png);
+    background-size: 14px 16px;
+    margin-right: 8px;
+}
+.footer .icon1::after{
+    content: "";
+    width: 13px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(./image/copy_rignt_24.png);
+    background-size: 13px 16px;
+}
